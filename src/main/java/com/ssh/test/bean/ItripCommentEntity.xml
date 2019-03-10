@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.ssh.test.bean.ItripCommentEntity">
+        <table name="itrip_comment" schema="itripdb" catalog=""/>
+        <attributes>
+            <id name="id">
+                <column name="id"/>
+            </id>
+            <basic name="hotelId">
+                <column name="hotelId"/>
+            </basic>
+            <basic name="productId">
+                <column name="productId"/>
+            </basic>
+            <basic name="orderId">
+                <column name="orderId"/>
+            </basic>
+            <basic name="productType">
+                <column name="productType"/>
+            </basic>
+            <basic name="content">
+                <column name="content"/>
+            </basic>
+            <basic name="userId">
+                <column name="userId"/>
+            </basic>
+            <basic name="isHavingImg">
+                <column name="isHavingImg"/>
+            </basic>
+            <basic name="positionScore">
+                <column name="positionScore"/>
+            </basic>
+            <basic name="facilitiesScore">
+                <column name="facilitiesScore"/>
+            </basic>
+            <basic name="serviceScore">
+                <column name="serviceScore"/>
+            </basic>
+            <basic name="hygieneScore">
+                <column name="hygieneScore"/>
+            </basic>
+            <basic name="score">
+                <column name="score"/>
+            </basic>
+            <basic name="tripMode">
+                <column name="tripMode"/>
+            </basic>
+            <basic name="isOk">
+                <column name="isOk"/>
+            </basic>
+            <basic name="creationDate">
+                <column name="creationDate"/>
+            </basic>
+            <basic name="createdBy">
+                <column name="createdBy"/>
+            </basic>
+            <basic name="modifyDate">
+                <column name="modifyDate"/>
+            </basic>
+            <basic name="modifiedBy">
+                <column name="modifiedBy"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
